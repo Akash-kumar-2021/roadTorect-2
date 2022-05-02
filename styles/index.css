@@ -1,0 +1,28 @@
+#container
+{
+    display: grid;
+    grid-template-columns:repeat(5,20%);
+    gap:30px;
+    width: 80%;
+    margin:auto;
+}
+.image img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    /* margin: 30px; */
+    cursor: pointer;
+    /* border: 1px solid green; */
+}
+h3{
+    display: flex;
+    color:green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
